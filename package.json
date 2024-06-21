@@ -1,5 +1,5 @@
 {
-  "name": "vue3-openlayers-starter",
+  "name": "c",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,17 +9,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ol": "^9.1.0",
+    "ol": "^9.2.4",
     "ol-contextmenu": "^5.4.0",
-    "ol-ext": "^4.0.15",
+    "ol-ext": "^4.0.18",
     "pug": "^3.0.3",
     "vue": "^3.4.21",
-    "vue3-openlayers": ">=10.0.0"
+    "vue3-openlayers": "^10.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.8",
     "vue-tsc": "^2.0.11"
-  }
+  },
+  "description": "See [vue3-openlayers](https://github.com/MelihAltintas/vue3-openlayers)",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
