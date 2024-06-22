@@ -2,7 +2,7 @@
 ol-map(
     :loadTilesWhileAnimating="true"
     :loadTilesWhileInteracting="true"
-    style="height: 95vh"
+    style="height: 75vh"
     @pointermove="checkMouse"
     )
   ol-view(
@@ -29,7 +29,7 @@ ol-map(
 import { Fill, Style,Stroke } from "ol/style";
 
 import { ref, inject } from 'vue';
-const url = ref('https://{a-c}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=6e5478c8a4f54c779f85573c0e399391');
+// const url = ref('https://{a-c}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=6e5478c8a4f54c779f85573c0e399391');
 
 
 const center = ref([122.64556606155921, 11.105840833366567]);
