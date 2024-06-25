@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-free": "^6.5.2",
     "@iconify-icons/mdi": "^1.2.48",
     "@iconify-icons/mdi-light": "^1.2.5",
+    "@iconify/iconify": "^3.1.1",
     "@iconify/vue": "^4.1.2",
     "ol": "^9.2.4",
     "ol-contextmenu": "^5.4.0",

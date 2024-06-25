@@ -1,6 +1,5 @@
 <template lang="pug">
-
-
+  
 div.map-container
       ol-map(
           :loadTilesWhileAnimating="true"
@@ -41,7 +40,7 @@ div.map-container
   
   const center = ref([122.64556606155921, 11.105840833366567]);
   const projection = ref('EPSG:4326');
-  const zoom = ref(8.3);
+  const zoom = ref(8);
   const rotation = ref(0);
   
   const format = inject('ol-format');
@@ -76,7 +75,7 @@ div.map-container
       fill: new Fill({ color: '#00000000' }),
       stroke: new Stroke({
         color: 'rgba(0, 0, 0, 0.5)',
-        width: 2,
+        width: 1.5,
       }),
     });
   }

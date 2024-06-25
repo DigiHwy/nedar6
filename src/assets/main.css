@@ -6,18 +6,45 @@
   
 }
 
+.header-container {
+ position: absolute;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background-color: rgba(0, 50, 160, 0.9);
+  padding: 20px 20px 20px; /* Adjusted padding */
+  border-radius: 15px; /* Rounded border */
+  margin: 20px auto;
+  gap: 10px;
+  z-index: 2;
+}
+/* Style for individual icons */
+.icon {
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  margin: 20px px 0px 0px; /* Add margin between icons for spacing */
+}
+
+/* Hover effect */
+.icon:hover {
+  color: #ffcc00; /* Yellow color on hover */
+}
+
 .map-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 75%;
+  height: 100%;
   z-index: 1;
 }
 
 .text-container {
   position: absolute;
-  bottom: 0;
+  bottom: 3%;
   height: 25%;
   left: 50%;
   transform: translateX(-50%);
@@ -25,7 +52,7 @@
   color: white;
   font-size: 2rem;
   text-align: center;
-  z-index: 2;
+  z-index: 3;
 }
 h1 {
   margin-bottom: 1px;
@@ -36,24 +63,4 @@ h3 {
   color: #cccccc;
 }
 
-.center-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 10%; /* Adjust as needed */
-  left: 0;
-  right: 0;
-  z-index: 3;
-}
 
-.icon {
-  cursor: pointer;
-  font-size: 24px;
-  margin-right: 10px; /* Adjust spacing between icons */
-  color: white; /* Set icon color */
-}
-
-.icon:hover {
-  color: #ffca3a; /* Change color on hover */
-}
